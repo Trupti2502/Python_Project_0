@@ -1,4 +1,4 @@
-
+#Find the number of movies released between 1950 and 1960.
 
 def first():
     cnt=0
@@ -11,7 +11,7 @@ def first():
     
         print(cnt)
 
-
+#2. Find the number of movies having rating more than 4.
 def second():
     cnt=0
     with open('movie.txt', 'r') as file:
@@ -23,7 +23,7 @@ def second():
     
         print(cnt)
 
-
+#3. Find the movies whose rating are between 3 and 4.
 def third():
     cnt=0
     with open('movie.txt', 'r') as file:
@@ -35,6 +35,7 @@ def third():
     print(cnt)
 
 
+#4. Find the number of movies with duration more than 2 hours (7200 second).
 def four():
     cnt=0
     with open('movie.txt', 'r') as file:
@@ -46,6 +47,7 @@ def four():
         print(cnt)
 
 
+#5. Find the list of years and number of movies released each year.
 def five():
     index=0  
     arr=set()
@@ -80,7 +82,9 @@ def five():
         sum=sum+i
         print(sum)"""
 
-
+    
+    
+#6. Find total number of movies in dataset
 def six():
     cnt=0
     with open('movie.txt', 'r') as file:
